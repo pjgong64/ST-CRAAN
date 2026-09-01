@@ -36,7 +36,7 @@ graph compiles. **They are far too small to reproduce any estimate reported in t
 ## Repository layout
 
 ```
-gee/       Earth Engine scripts: collection filtering, QA masking, monthly compositing,
+GEE/       Earth Engine scripts: collection filtering, QA masking, monthly compositing,
            ADM3 zonal reduction. Run first; they export the environmental panel.
 R/         Everything downstream — hierarchical fallback imputation, phenological feature
            engineering, encoding and conditioning, ST-CRAAN definition and training,
