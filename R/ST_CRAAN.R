@@ -197,10 +197,10 @@ gc()
 # ==========================================
 # 4. Targeted Hyperparameter Tuning (Keras)
 # ==========================================
-grid_lstm        <- c(64)        
+grid_lstm        <- c(32, 64, 128)        
 grid_lr          <- c(0.001, 0.0001) 
-grid_drop_seq    <- c(0.20) 
-grid_lstm_layers <- c(2)            
+grid_drop_seq    <- c(0.2, 0.3, 0.4) 
+grid_lstm_layers <- c(1, 2, 3)            
 grid_wd          <- c(0.0001)   
 grid_weight_1    <- c(100/6.575) 
 
